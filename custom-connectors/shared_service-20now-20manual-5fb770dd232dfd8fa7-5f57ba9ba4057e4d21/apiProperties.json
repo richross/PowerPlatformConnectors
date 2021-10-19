@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "connectionParameters": {
+      "token": {
+        "type": "oauthSetting",
+        "oAuthSettings": {
+          "identityProvider": "oauth2",
+          "clientId": "5d18b20512473090469ff7c08fa1ef56",
+          "scopes": [],
+          "redirectMode": "Global",
+          "redirectUrl": "https://global.consent.azure-apim.net/redirect",
+          "properties": {
+            "IsFirstParty": "False",
+            "IsOnbehalfofLoginSupported": false
+          },
+          "customParameters": {
+            "authorizationUrl": {
+              "value": "https://microsoftaaddemoinstance1.service-now.com/oauth_auth.do"
+            },
+            "tokenUrl": {
+              "value": "https://microsoftaaddemoinstance1.service-now.com/oauth_token.do"
+            },
+            "refreshUrl": {
+              "value": "https://microsoftaaddemoinstance1.service-now.com/oauth_refresh.do"
+            }
+          }
+        }
+      }
+    },
+    "iconBrandColor": "#0078d4",
+    "capabilities": [],
+    "publisher": "Rich Ross"
+  }
+}
