@@ -2597,6 +2597,45 @@
       "description": "System ID of the record",
       "x-ms-visibility": "important",
       "x-ms-url-encoding": "single"
+    },
+    "DisplaySystemRefs": {
+      "name": "sysparm_display_value",
+      "in": "query",
+      "type": "boolean",
+      "required": false,
+      "x-ms-summary": "Display System References",
+      "description": "Determines if system references should be included",
+      "x-ms-visibility": "advanced",
+      "default": false
+    },
+    "DisplayInputSystemRefs": {
+      "name": "sysparm_input_display_value",
+      "in": "query",
+      "type": "boolean",
+      "required": false,
+      "x-ms-summary": "Display Input System References",
+      "description": "Flag that indicates whether to set field values using the display value or the actual value",
+      "x-ms-visibility": "advanced",
+      "default": false
+    },
+    "ExcludeRefLinks": {
+      "name": "sysparm_exclude_reference_link",
+      "in": "query",
+      "type": "boolean",
+      "required": true,
+      "x-ms-summary": "Exclude Reference Links",
+      "description": "Determines if reference links should be excluded",
+      "x-ms-visibility": "advanced",
+      "default": true
+    },
+    "SysParmFields": {
+      "name": "sysparm_fields",
+      "in": "query",
+      "required": false,
+      "type": "string",
+      "x-ms-summary": "Fields to return in response",
+      "x-ms-visibility": "advanced",
+      "description": "Fields to return in response"
     }
   },
   "responses": {},
